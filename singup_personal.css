@@ -1,0 +1,56 @@
+body {
+background-color: blanchedalmond;
+              
+            }
+             body:has(.black:checked)  {
+background-color:  rgb(57, 57, 55);
+
+}
+.head h1 {
+color: black;   
+text-align: center;
+font-weight: 600px;
+text-shadow: 7px 7px 5px rgb(249, 200, 127);
+}
+
+.head form {
+color: black;   
+border: 5px solid rgb(249, 200, 127);
+font-weight: 600px; 
+background-color:rgb(249, 200, 127);
+box-shadow: 10px 10px 3px rgb(249, 200, 127);
+height: auto; 
+display: inline;  }
+
+.head form:has(.black:checked) {
+background-color: rgb(163, 163, 140);
+border-color: rgb(118, 118, 103);   
+box-shadow:10px 10px 3px rgb(118, 118, 103);
+}
+
+#name ,#email ,#password ,#confirm_password ,#phone ,#gender {
+border: 5px dashed rgb(249, 200, 127);
+border-radius: 5px;
+display:  block;
+margin: 20px 20px;
+
+}
+
+ #next{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 150px;
+}
+#next , button p {
+background-color:rgb(249, 200, 127);
+color: black;
+border-color:rgb(249, 200, 127) ;   
+width: auto ;
+height: auto;
+text-shadow: 2px 2px 5px rgb(249, 200, 127);
+font-weight: 600px;
+display: inline  ;
+cursor: pointer;
+align-items: flex-start;
+}
